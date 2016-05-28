@@ -138,7 +138,7 @@ nav{
                 }
         .content__cartelera__peliculas{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             flex-wrap: wrap;
         }
             .content__cartelera__peliculas--item{
@@ -174,3 +174,140 @@ nav{
                         border-radius: 10px;
                         padding: 5px;
                     }
+
+    /* Content Cines*/
+    .content__cine{
+        width: 30%;
+    }
+        .content__cine__cines{
+            display: flex;
+            flex-direction: column;
+        }
+            .content__cine__cines__header{
+                display: flex;
+                align-items: center;
+            }
+                .content__cine__cines__header .icon{
+                    width: 15%;
+                    text-align: center;
+                    background-color: #3c454c;
+                    color: rgb(255, 255, 255);
+                }
+                .content__cine__cines__header .titulo{
+                    width: 85%;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: rgb(255, 255, 255);
+                    background-color: #4b555f;
+                }
+                    .content__cine__cines__header .icon p,
+                    .content__cine__cines__header .titulo p{
+                        margin: 0;
+                        padding: 15px 0;
+                        font-size: 1.3rem;
+                    }
+                    .content__cine__cines__header .titulo p{
+                        margin: 0 20px;
+                    }
+
+            .content__cine__cines__listado{
+                display: flex;
+                justify-content: space-around;
+                background-color: #1f2b37;
+            }
+                .content__cine__cines__listado__col1,
+                .content__cine__cines__listado__col2{
+                    padding: 20px;
+                }
+                    .content__cine__cines__listado__col1 a,
+                    .content__cine__cines__listado__col2 a{
+                        display: block;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        font-size: 0.7rem;
+                        margin: 10px 0;
+                    }
+        .content__cine__top{
+            display: flex;
+            flex-direction: column;
+        }
+            .content__cine__top__header{
+                display: flex;
+                align-items: center;
+            }
+                .content__cine__top__header .titulo{
+                    width: 85%;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: rgb(255, 255, 255);
+                    background-color: #4b555f;
+                }
+                .content__cine__top__header .icon{
+                    width: 15%;
+                    text-align: center;
+                    background-color: #3c454c;
+                    color: rgb(255, 255, 255);
+                }
+                    .content__cine__top__header .icon p,
+                    .content__cine__top__header .titulo p{
+                        margin: 0;
+                        padding: 15px 0;
+                        font-size: 1.3rem;
+                    }
+                    .content__cine__top__header .titulo p{
+                        margin: 0 20px;
+                    }
+
+            .content__cine__top__peliculas{
+                /*display: flex;*/
+            }
+                .content__cine__top__peliculas .par{
+                    background-color: #1f2b37;
+                }
+                .content__cine__top__peliculas .impar{
+                    background-color: #18222c;
+                }
+                .content__cine__top__peliculas--item{
+                    display: flex;
+                }
+                    .content__cine__top__peliculas--item .contenido{
+                        width: 73%;
+                        padding: 20px;
+                        /*display: flex;*/
+                        /*flex-direction: column;*/
+                    }
+                        .content__cine__top__peliculas--item .contenido a{
+                            display: block;
+                            text-transform: uppercase;
+                            color: rgb(255, 255, 255);
+                            font-weight: bold;
+                            text-decoration: none;
+                            font-size: 0.9rem;
+                            margin: 0 0 5px 0;
+                            /*padding: 10px;*/
+                        }
+                        .content__cine__top__peliculas--item .contenido a.nombre{
+                            height: 36px;
+                        }
+                        .content__cine__top__peliculas--item .contenido a.genero{
+                            /*margin: 0 10px 0 0;*/
+
+                            /*border: 2px solid #a1a1a1;*/
+                            /*margin: 0;*/
+                            color: #666a6d;
+                            border-radius: 10px;
+                            font-size: 0.7rem;
+                            /*padding: 5px;*/
+                        }
+
+                    .content__cine__top__peliculas--item .imagen{
+                        width: 28%;
+                        height: 123px;
+                    }
+                        .content__cine__top__peliculas--item .imagen img{
+                            width: 100%;
+                            height: 123px;
+                        }
+    
